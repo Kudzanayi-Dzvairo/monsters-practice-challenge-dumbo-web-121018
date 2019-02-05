@@ -24,7 +24,7 @@ json-server monsters.json
 
 Get the list of monsters
 ```js
-GET http://localhost:3000/monsters
+GET 
 
 optional parameters:
 
@@ -62,7 +62,7 @@ Create a monster
 
 ```
 POST http://localhost:3000/monsters
-headers: 
+headers:
 {
   "Content-Type": "application/json",
   Accept: "application/json"
